@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title> Time Perception Lab</title>
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS-->
+    <link href="css/style.css" rel="stylesheet">    
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo_website.svg" alt="Time Perception Lab" height="100">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lab_members.html">Lab Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="join.html">Join</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Research Page -->
+  <div class="container page-section">
+  <h1 class="mb-4">Research</h1>
+  <hr class="black-line"> </hr>
+
+  <!-- Ongoing -->
+  <section id="projects">
+    <!-- <h2 class="mt-5 mb-3">Ongoing Projects</h2> -->
+    <div id="projects-container"></div>
+
+    <h3 class="mt-5 mb-3"> The Sensory Codes of Time </h3>
+    <p> The perception of time is a peculiar sensory experience: it is constructed without dedicated sensory receptors or 
+        specialized neural pathways. Nevertheless, time is intrinsic to all sensory perceptions. Any stimulus that reaches our 
+        senses - for example, the notes of a melody - unfold over time and is accompanied by a subjective sense of temporal 
+        flow. Yet, despite its fundamental role, time has rarely been studied as a sensory feature. </p> 
+        
+    <p> Through a series of psychophysical and 7T fMRI experiments, we investigate the link between sensory 
+        coding (e.g., the coding of visual space or speed) and the neural representation of time (see, for example, 
+        <a href="https://doi.org/10.1038/s41467-024-54336-5">Centanino, Fortunato, Bueti 2024</a>). </p>
+
+    <h3 class="mt-5 mb-3"> Predicting the Future: Attention, Statistics, and the Sense of Time </h3>
+    <p> Like other sensory modalities, time perception is not a faithful representation of the physical world. Instead, it 
+        reflects an interaction between incoming sensory information and prior expectations about the structure of the 
+        environment, shaped by past experience and statistical regularities. </p>
+
+    <p> Using a combination of psychophysics, high-resolution fMRI, and pupillometry, we investigate how environmental 
+        statistics and participants’ expectations influence both the subjective perception and the neural coding of time. </p>
+
+    <h3 class="mt-5 mb-3"> Arousal, Stress, and the Subjective Flow of Time </h3>
+    <p> Stressful events are widely reported to distort the perception of time. Empirical research shows that threatening or 
+        arousing stimuli often lead to duration overestimation, suggesting that time is experienced as passing more slowly 
+        under stress (e.g., Droit-Volet & Meck, 2007; Lake et al., 2016). However, the neurobiological mechanisms underlying 
+        this effect remain poorly understood. </p>
+    
+    <p> This project investigates whether cortisol - a key hormone in the human stress response - contributes to 
+        stress-related distortions of time perception. We employed a mixed, double-blind, placebo-controlled pharmacological 
+        design, administering hydrocortisone or placebo to healthy male participants. Stress-related physiology was monitored 
+        using salivary cortisol measurements and pupillometry. </p>
+
+    <p> Participants completed two psychophysical tasks assessing whether cortisol influences: (i) duration perception, measured 
+        with a duration reproduction task; and (ii) low-level visual processing, measured with an orientation discrimination task.</p>
+
+    <p> This study was conducted in collaboration with the Emotion and Memory Lab directed by 
+        <a href="https://www.unige.ch/fapse/emotion-and-memory/eng/team/ulrike-rimmele">Prof. Ulrike Rimmele</a> (CISA, 
+        University of Geneva) and was supported by the European Union’s Horizon Europe Program (Marie Skłodowska-Curie 
+        Actions), awarded to Dr. Monika Riegel (Project ID 101064781: <i>Neuromodulation of episodic memory – how stress influences 
+        time in memory and perception</i>). </p>
+
+    <h3 class="mt-5 mb-3"> Methodological Approaches for Studying Time Perception </h3>
+    <p> We investigate the neural correlates of time perception using behavioral experiments combined with electroencephalographic 
+        (EEG) recordings. To address the high dimensionality of EEG data, we employ multiple methodological approaches that enable 
+        the extraction of meaningful spatiotemporal features.  </p>
+
+    <p> Our work includes the application of classical techniques - such as principal component analysis (PCA), hidden Markov 
+        models (HMM), and independent component analysis (ICA) - as well as the development of innovative methods to characterize 
+        neural dynamics associated with temporal estimates. </p>
+
+    <p> In collaboration with <a href="https://datascience.sissa.it/person/26/alessandro-laio">Alessandro Laio’s</a> Data 
+        Science Group (SISSA), we apply causality-detection algorithms based on the Information Imbalance of distance ranks to 
+        test: (i) whether changes in neural activity causally relate to perceived stimulus duration across participants, and (ii) 
+        how information flows between EEG channels. This framework allows for robust inference of causality in human EEG data using 
+        a purely variational approach. </p>
+ 
+    <h3 class="mt-5 mb-3"> Cortical Chronometry of Time </h3>
+    <p> In humans, the processing of visual duration engages a distributed network of brain regions, including primary visual cortex 
+        (V1) and supplementary motor area (SMA). However, the functional roles of these regions in temporal computations remain 
+        unclear. </p>
+
+    <p> A simple hypothesis proposes that V1 encodes stimulus duration at the sensory level, while SMA - positioned higher in the 
+        processing hierarchy - decodes this information for task-related decisions. We test this hypothesis in two transcranial 
+        magnetic stimulation (TMS) studies, one of which combines twin-coil TMS with simultaneous EEG recording. These studies aim 
+        to characterize the directionality and temporal dynamics of communication between V1 and SMA during time perception.  </p>
+
+    <h3 class="mt-5 mb-3"> The Arrow of Time in Decision-Making </h3>
+    <p> Many real-world sensory signals evolve in a preferred temporal direction: smoke disperses, waves break, and people walk 
+        forward rather than backward. These processes reflect the arrow of time, and their degree of temporal irreversibility can 
+        vary.  </p>
+
+    <p> We investigate whether human perceptual decisions are sensitive to such graded cues of temporal irreversibility. Using 
+        psychophysics and computational modeling, participants are tested with visual motion sequences generated by physically 
+        grounded non-equilibrium systems - specifically, drifted Brownian trajectories with controlled levels of temporal asymmetry. </p>
+
+    <p> By manipulating the strength of the arrow of time, we aim to determine whether decision formation relies solely on average 
+        motion statistics or whether observers also exploit time-asymmetric fluctuations characteristic of non-equilibrium dynamics. </p> 
+
+    <p> This research is conducted in collaboration with Mathew E. Diamond 
+        (<a href="https://sites.google.com/view/sensexlab/home">SENSEx Lab</a>, SISSA) and Edgar Roldan 
+        (<a href="https://www.edgarroldan.com/">Stochastic Thermodynamics and Biophysics Group</a>, ICTP), integrating perceptual 
+        decision-making, computational neuroscience, and stochastic thermodynamics. </p>
+
+  </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3 mt-5">
+    <div class="container">
+        <p class="mb-0">&copy; 2026 Time Perception Lab. All rights reserved.</p>
+        <a href="index.html" class="text-light me-3">Home</a>
+        <a href="research.html" class="text-light me-3">Research</a>
+        <a href="publications.html" class="text-light me-3">Publications</a>
+        <a href="lab_members.html" class="text-light me-3">Lab Members</a>
+        <a href="join.html" class="text-light me-3">Join</a>
+        <a href="contact.html" class="text-light me-3">Contact</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS + Your JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/publications.js"></script>
+  <script src="js/publications_under_revision.js"></script>
+  <script src="js/members.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
