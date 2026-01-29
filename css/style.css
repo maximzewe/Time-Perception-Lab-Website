@@ -1,0 +1,235 @@
+/* General layout */
+body {
+    background-color: #fff;
+    color: #212529;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Colour scheme */
+:root {
+    --color-dark: #212529;
+    --color-gray: #6c757d;
+    --color-light: #f8f9fa;
+}
+
+/* Grey filter for images */
+.grey-filter {
+  filter: grayscale(100%);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color-dark);
+}
+
+/* Black line */
+hr.black-line {
+  border: none;
+  height: 2px;                 /* thickness of the line */
+  background-color: black;    
+  margin: 0 0 1.5rem 0;   /* no top margin, 1.5rem bottom */
+  opacity: 1;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--color-dark) !important;
+}
+
+.navbar-link {
+    color: #fff !important;
+}
+
+.navbar-link.active {
+    font-weight: bold;
+    color: var(--color-dark) !important;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-dark);
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: var(--color-gray);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Carousel */
+.carousel-item {
+  height: 650px; /* or whatever height you want */
+}
+
+.carousel-item img {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: top !important; /* <-- crop from top */
+}
+
+/* Lab member cards */
+.card-img-top {
+    width: 100%;
+    height: 350px; 
+    object-fit: cover;
+    border-radius: 4%;
+    margin: 0rem auto 0;
+    display: block;
+    filter: grayscale(100%);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: var(--color-dark);
+}
+
+.fw-bold {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--color-dark);
+}
+
+.card-text {
+    font-size: 1.2rem;
+    color: var(--color-dark);
+    margin-top: 0.25rem;
+}
+
+/* List and paragraph styling within the card-body */
+.card-body ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.2rem;
+}
+
+.card-body li { /* For bullet point lists */
+    margin-bottom: 0.25rem;
+}
+
+.card-body p.card-text {
+    margin-top: 0.5rem;
+}
+
+
+/* Ensure cards remain equal in height */
+.row.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.equal-height > .col-6,
+.row.equal-height > .col-md-3 {
+    display: flex;
+}
+
+.row.equal-height .card {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* PI card */
+.pi-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: none;
+  background: transparent;
+  flex-wrap: nowrap;
+}
+
+.pi-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.pi-image-container {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.pi-image-container .pi-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.pi-text {
+  flex: 1;
+  text-align: left;
+}
+
+/* Responsive: stack vertically on small screens */
+@media (max-width: 768px) {
+  .pi-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .pi-image-container {
+    flex: 0 0 auto;
+    margin-right: 0 !important;
+    margin-bottom: 1rem;
+  }
+
+  .pi-text {
+    text-align: left;
+  }
+}
+
+/* List of publications */
+.publication {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.publication em {
+    font-style: italic;
+}
+
+.publication-title {
+  font-weight: 600;
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.publication-title:hover {
+  text-decoration: underline;
+}
+
+/* Section spacing */
+.page-section h2 {
+    font-weight: 600;
+    color: var(--color-dark);
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-dark);
+    padding-bottom: 0.5rem;
+}
