@@ -115,7 +115,7 @@ const labMembers = {
                 extra: "<strong>Research Interests</strong>: Sensory codes of time, subjective sense of time<br><strong>Reads</strong>: Kant, Hume and Spinoza"},
             { name: "Martina Maddaluno", 
                 role: "MSc Student", 
-                category: "MSc Students",
+                category: "MSc Students & Predocs",
                 img: "img/martina_maddaluno.jpg",
                 bullets: [
                     "MSc student 2025 - now",
@@ -127,7 +127,7 @@ const labMembers = {
                 <strong>Likes</strong>: Dancing, experiencing wonder and awe"  },
             { name: "Giovanni Avelli", 
                 role: "MSc Student",
-                category: "MSc Students", 
+                category: "MSc Students & Predocs", 
                 img: "img/giovanni_avelli.jpeg",
                 bullets: [
                     "MSc student 2025 - now",
@@ -135,7 +135,15 @@ const labMembers = {
                 ], 
                 extra: "<strong>Research Interests</strong>: Altered states of consciousness, psychedelic substances, evolution of language and time perception<br>\
                 <strong>Working on</strong>: Effects of visual field inhomogeneities on duration discrimination and space-time integration in early visual regions<br>\
-                <strong>Personal</strong>: Amateur musician and outdoor sports enthousiast" }
+                <strong>Personal</strong>: Amateur musician and outdoor sports enthousiast" },
+            { name: "Livia Patrizi", 
+                role: "Predoc",
+                category: "MSc Students & Predocs", 
+                img: "img/livia_patrizi.jpeg",
+                bullets: [
+                    "Predoctoral intern Winter 2026"
+                ], 
+                extra: "<strong>Research Interests</strong>: Regeneration <strong>Hobbies</strong>: Climbing and saying 'Good morning, everyone' " }
     // add more members here...
         ],
     alumni: [
@@ -241,4 +249,5 @@ const labMembers = {
         }
     // add more alumni here...
             ]
+
 };
