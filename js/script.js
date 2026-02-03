@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "Principal Investigator",
     "Postdocs",
     "PhD Candidates",
-    "MSc Students",
+    "MSc Students & Predocs",
     "Visiting Scientists",
     "Other",
   ];
@@ -232,4 +232,5 @@ function renderPublicationList(list, containerId, includeYearHeadings = true) {
 document.addEventListener("DOMContentLoaded", () => {
   renderPublicationList(publications, "publications-container", true);
   renderPublicationList(publications_under_revision, "publications_under_revision-container", false);
+
 });
