@@ -102,7 +102,7 @@ const labMembers = {
                 "MSc Physics & Astronomy, University of Amsterdam & Vrije Universiteit",
                 "BSc Liberal Arts & Sciences, University College Roosevelt"
             ],
-            extra: "<strong>Research Interests</strong>: Efficient coding in time perception, information theory, inference<br><strong>Listens to</strong>: FKA Twigs, Arca, Talking Heads" },
+            extra: "<strong>Research Interests</strong>: Efficient coding in time perception, information theory, inference<br><strong>Listens to</strong>: FKA Twigs, Arca, Talking Heads, Geese" },
             { name: "Gabriele Pierguidi", 
                 role: "PhD Candidate", 
                 category: "PhD Candidates",
@@ -141,9 +141,13 @@ const labMembers = {
                 category: "MSc Students & Predocs", 
                 img: "img/livia_patrizi.jpeg",
                 bullets: [
-                    "Predoctoral intern Winter 2026"
+                    "Predoctoral intern Winter 2026",
+                    "Lab Technician Position (Paton Lab), Champalimaud Foundation",
+                    "MSc Neuroscience, Università degli Studi di Trieste",
+                    "BSc Biology, University of Turin"
                 ], 
-                extra: "<strong>Research Interests</strong>: Regeneration <strong>Hobbies</strong>: Climbing and saying 'Good morning, everyone' " }
+                extra: "<strong>Research Interests</strong>: Cognition, flexible behavior, regeneration <br>\
+                    <strong>Hobbies</strong>: Climbing in- and outdoor, talking to random people, Oliver Sacks" }
     // add more members here...
         ],
     alumni: [
@@ -251,3 +255,4 @@ const labMembers = {
             ]
 
 };
+
