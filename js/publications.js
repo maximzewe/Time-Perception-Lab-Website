@@ -10,9 +10,9 @@ const publications = [
     {
     title: "The interaction of speed and time in biasing the perception of dynamically changing visual inputs",
     authors: "F Bellotti, D Bueti",
-    journal: "Journal of Vision (accepted)",
+    journal: "Journal of Vision",
     year: "2026",
-    link: ""
+    link: "https://doi.org/10.1167/jov.26.2.12"
     },
     {
     title: "Global and local deviance effects in the processing of temporal patterns",
@@ -313,4 +313,5 @@ const publications = [
     link: "https://doi.org/10.1016/j.neuropsychologia.2004.04.005"
     }
   // add more publications here...
+
 ];
