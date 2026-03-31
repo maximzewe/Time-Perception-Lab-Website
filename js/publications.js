@@ -1,6 +1,13 @@
 // Running list of publications
 const publications = [
     {
+    title: "Neuronal populations across the cortex underlie discrete, categorical, and subjective representations of visual durations",
+    authors: "V Centanino, G Fortunato, D Bueti",
+    journal: "PLoS Biology",
+    year: "2026",
+    link: "https://doi.org/10.1371/journal.pbio.3003704"
+    },
+    {
     title: "Different modality-specific mechanisms mediate perceptual history effects in vision and audition",
     authors: "I Togoli, M Fornaciai, D Bueti",
     journal: "BMC Biology (accepted)",
