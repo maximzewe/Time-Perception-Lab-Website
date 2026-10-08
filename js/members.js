@@ -4,7 +4,7 @@ const labMembers = {
         { name: "Domenica Bueti", 
             role: "Principal Investigator",
             category: "Principal Investigator",
-            img: "img/domenica_bueti.jpg",
+            img: "img/domenica_bueti.jpeg",
             description:`
                 <p>Since 2016, I have been Professor of Cognitive Neuroscience at SISSA in Trieste, where I lead the Time Perception Lab. I have always been fascinated by 
                 how our brain gives shape to something as elusive as time, how we feel its flow, how it stretches or contracts depending on what we see, or feel. My research 
