@@ -8,6 +8,13 @@ const publications = [
     link: "https://doi.org/10.1016/j.actpsy.2026.106796"
     },
     {
+    title: "Perceptual lengthening of visual time throughout learning of hand-reaching actions",
+    authors: "N. Binetti, F. Mancinelli, M. Zanon, D. Bueti",
+    journal: "iScience (in press)",
+    year: "2026",
+    link: "https://www.biorxiv.org/content/10.64898/2026.01.22.701104v"
+    },
+    {
     title: "Neuronal populations across the cortex underlie discrete, categorical, and subjective representations of visual durations",
     authors: "V Centanino, G Fortunato, D Bueti",
     journal: "PLoS Biology",
