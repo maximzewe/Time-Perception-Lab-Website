@@ -20,10 +20,6 @@ const labMembers = {
             role: "Independent Researcher", 
             category: "Visiting Scientists",
             img: "img/nicola_binetti.jpg" },
-        { name: "Gianfranco Fortunato", 
-            role: "Postdoc",
-            category: "Postdocs",
-            img: "img/gianfranco_fortunato.jpg"},
         { name: "Monika Riegel", 
             role: "Postdoc", 
             category: "Postdocs",
@@ -62,11 +58,12 @@ const labMembers = {
             extra: "<strong>Research Interest</strong>: Neural mechanisms of time perception, EEG analysis methods, including causal inference, supervised and unsupervised approaches<br>\
             <strong>Beyond Research</strong>: I love classical music, whether I'm listening to or attempting to play it" },
         { name: "Aybüke Durmaz", 
-            role: "PhD Candidate", 
-            category: "PhD Candidates",
+            role: "Postdoc", 
+            category: "Postdocs",
             img: "img/aybuke_durmaz.jpg",
             bullets: [
-                "PhD Candidate 2021 - now",
+                "Postdoctoral Research Fellow 2026 - now",
+                "PhD Cognitive Neuroscience, SISSA",
                 "MSc Cognitive Science, CIMeC (University of Trento)",
                 "BSc Psychology, Boğaziçi University, Istanbul"
             ],
@@ -103,54 +100,63 @@ const labMembers = {
                 "BSc Liberal Arts & Sciences, University College Roosevelt"
             ],
             extra: "<strong>Research Interests</strong>: Efficient coding in time perception, information theory, inference<br><strong>Listens to</strong>: FKA Twigs, Arca, Talking Heads, Geese" },
-            { name: "Gabriele Pierguidi", 
-                role: "PhD Candidate", 
-                category: "PhD Candidates",
-                img: "img/gabriele_pierguidi.jpeg",
-                bullets: [
-                    "PhD candidate 2025 - now",
-                    "MSc Cognitive Science, CIMeC (University of Trento)",
-                    "BA Philosophy, University of Pisa"
-                ], 
-                extra: "<strong>Research Interests</strong>: Sensory codes of time, subjective sense of time<br><strong>Reads</strong>: Kant, Hume and Spinoza"},
-            { name: "Martina Maddaluno", 
-                role: "MSc Student", 
-                category: "MSc Students & Predocs",
-                img: "img/martina_maddaluno.jpg",
-                bullets: [
-                    "MSc student 2025 - now",
-                    "rMA Media, Art and Performance Studies, Utrecht University",
-                    "BA Philosophy, University of Rome"
-                ], 
-                extra: "<strong>Research Interests</strong>: Multisensory integration, interoception and the creation of selfhood, consciousness research<br>\
-                <strong>Working on</strong>: V1-SMA interaction in the processing of visual duration and trying to wrap my head around relational blockworld theory's view of time<br>\
-                <strong>Likes</strong>: Dancing, experiencing wonder and awe"  },
-            { name: "Giovanni Avelli", 
-                role: "MSc Student",
-                category: "MSc Students & Predocs", 
-                img: "img/giovanni_avelli.jpeg",
-                bullets: [
-                    "MSc student 2025 - now",
-                    "BA Philosophy, University of Genoa"
-                ], 
-                extra: "<strong>Research Interests</strong>: Altered states of consciousness, psychedelic substances, evolution of language and time perception<br>\
-                <strong>Working on</strong>: Effects of visual field inhomogeneities on duration discrimination and space-time integration in early visual regions<br>\
-                <strong>Personal</strong>: Amateur musician and outdoor sports enthousiast" },
-            { name: "Livia Patrizi", 
-                role: "Predoc",
-                category: "MSc Students & Predocs", 
-                img: "img/livia_patrizi.jpeg",
-                bullets: [
-                    "Predoctoral intern Winter 2026",
-                    "Lab Technician Position (Paton Lab), Champalimaud Foundation",
-                    "MSc Neuroscience, Università degli Studi di Trieste",
-                    "BSc Biology, University of Turin"
-                ], 
-                extra: "<strong>Research Interests</strong>: Cognition, flexible behavior, regeneration <br>\
-                    <strong>Hobbies</strong>: Climbing in- and outdoor, talking to random people, Oliver Sacks" }
+        { name: "Gabriele Pierguidi", 
+            role: "PhD Candidate", 
+            category: "PhD Candidates",
+            img: "img/gabriele_pierguidi.jpeg",
+            bullets: [
+                "PhD Candidate 2025 - now",
+                "MSc Cognitive Science, CIMeC (University of Trento)",
+                "BA Philosophy, University of Pisa"
+            ], 
+            extra: "<strong>Research Interests</strong>: Sensory codes of time, subjective sense of time<br><strong>Reads</strong>: Kant, Hume and Spinoza"},
+        { name: "Giovanni Avelli", 
+            role: "PhD Candidate",
+            category: "PhD Candidates", 
+            img: "img/giovanni_avelli.jpeg",
+            bullets: [
+                "PhD Candidate 2026 - now",
+                "MSc Cognitive Science, CIMeC (University of Trento)",
+                "BA Philosophy, University of Genoa"
+            ], 
+            extra: "<strong>Research Interests</strong>: Altered states of consciousness, psychedelic substances, evolution of language and time perception<br>\
+            <strong>Working on</strong>: Effects of visual field inhomogeneities on duration discrimination and space-time integration in early visual regions<br>\
+            <strong>Personal</strong>: Amateur musician and outdoor sports enthousiast" }
+            // { name: "Martina Maddaluno", 
+            //     role: "MSc Student", 
+            //     category: "MSc Students & Predocs",
+            //     img: "img/martina_maddaluno.jpg",
+            //     bullets: [
+            //         "MSc student 2025 - now",
+            //         "rMA Media, Art and Performance Studies, Utrecht University",
+            //         "BA Philosophy, University of Rome"
+            //     ], 
+            //     extra: "<strong>Research Interests</strong>: Multisensory integration, interoception and the creation of selfhood, consciousness research<br>\
+            //     <strong>Working on</strong>: V1-SMA interaction in the processing of visual duration and trying to wrap my head around relational blockworld theory's view of time<br>\
+            //     <strong>Likes</strong>: Dancing, experiencing wonder and awe"  },
+            // { name: "Livia Patrizi", 
+            //     role: "Predoc",
+            //     category: "MSc Students & Predocs", 
+            //     img: "img/livia_patrizi.jpeg",
+            //     bullets: [
+            //         "Predoctoral intern Winter 2026",
+            //         "Lab Technician Position (Paton Lab), Champalimaud Foundation",
+            //         "MSc Neuroscience, Università degli Studi di Trieste",
+            //         "BSc Biology, University of Turin"
+            //     ], 
+            //     extra: "<strong>Research Interests</strong>: Cognition, flexible behavior, regeneration <br>\
+            //         <strong>Hobbies</strong>: Climbing in- and outdoor, talking to random people, Oliver Sacks" }
     // add more members here...
         ],
     alumni: [
+        { name: "Gianfranco Fortunato", 
+            role: "Postdoc",
+            currently: "Max-Planck-Institut für empirische Ästhetik, Frankfurt a.M.",
+            img: "img/gianfranco_fortunato.jpg"},
+        { name: "Livia Patrizi", 
+            role: "Predoc",
+            currently: "Italian Institute of Technology, Genova",
+            img: "img/livia_patrizi.jpeg"},
         { name: "Anna Tonon Appiani",
             role: "Postdoc",
             currently: "Psychotherapy trainee, Trieste",
