@@ -1,6 +1,13 @@
 // Running list of publications
 const publications = [
     {
+    title: "Modeling human synchronization to rhythmic patterns with varying statistical regularities",
+    authors: "D. Giomo, F. Mancinelli, A. Ravignani, D. Bueti",
+    journal: "Acta Psychologica",
+    year: "2026",
+    link: "https://doi.org/10.1016/j.actpsy.2026.106796"
+    },
+    {
     title: "Neuronal populations across the cortex underlie discrete, categorical, and subjective representations of visual durations",
     authors: "V Centanino, G Fortunato, D Bueti",
     journal: "PLoS Biology",
